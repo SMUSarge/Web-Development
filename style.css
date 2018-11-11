@@ -1,0 +1,9 @@
+body {background-image: url(https://www.crazyleafdesign.com/blog/wp-content/uploads/2012/08/Zebra-minimal-wallpaper.jpg?ee639d);background-repeat: no-repeat;background-size: cover}
+
+
+.container {background: linear-gradient(to left, #00ccff,#008080);box-shadow: 3px 5px 5px black;}
+h1 {color: #ffffff;text-align: center;
+    text-shadow:2px 2px 5px black;}
+h2 {color: rgb(0,204,255);text-shadow: 0px 1px 3px black;text-align: center}
+
+.borderImg {border: 2px dashed black}
