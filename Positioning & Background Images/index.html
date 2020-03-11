@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning & Background</title>
+	<style>
+		.wrapper{
+			border: #ffffff 1px solid;
+			width:600px;
+			height:400px;
+			position:relative;
+			left:50px;
+			top:100px;
+			
+			background-image:url('bg.jpg');
+			background-repeat:no-repeat;
+			background-position:100px 100px;
+			background-color: black;
+			
+            padding: auto;
+            
+		}
+        .img-wrapper {
+            
+            background: #000  url('bg.jpg') no-repeat 90px 50px;
+            border: "red" 10px solid; }
+
+		.inside{
+			border:#ffffff 10px solid;
+			width:200px;
+			height:150px;
+			position:relative;
+			top:150px;
+			left:200px;
+            box-shadow: 5px 5px 5px 2px #888888;
+            border-radius: 8px;
+            
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+        <div class="img-wrapper">
+        </div>
+                    
+		<div class="inside">
+
+		</div>
+	</div>
+</body>
+</html>
