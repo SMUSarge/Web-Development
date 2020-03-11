@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo Classes</title>
+    <style>
+      a:hover{
+        color: red;
+        font-weight: bold;
+
+      }
+
+      a:active{
+        color: green;
+        font-weight: bold;
+
+      }
+
+      .myForm input:focus{
+        background: pink;
+        width: 300px;
+      }
+
+      .myList li:first-child{
+        color: green;
+        font-weight: bold;
+
+      }
+
+      .myList li:last-child{
+        color: red;
+        font-weight: bold;
+
+      }
+
+      .myList li:nth-child(3){
+        color: orange;
+        font-weight: bold;
+
+      }
+      .rounded1{
+        background: red;
+        color: white;
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        border-radius: 10px;
+
+      }
+      .rounded2{
+        background: red;
+        color: white;
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      .rounded3{
+        background: red;
+        color: white;
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        border-radius: 50%;
+        border: 3px black solid;
+
+      }
+      img{
+        border-radius: 50px;
+
+      }
+      #borderImage{
+        border-radius: 50%;
+        padding: 15px;
+        border-image: url()
+      }
+
+    </style>
+
+</head>
+<body>
+    <header>
+    <a href="#">Click Me</a>
+
+    <form class="myForm">
+      <input type="text">
+    </form>
+    <ul class="myList">
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+
+    </ul>
+    </header>
+    <main>
+      <div class="rounded1">Rounded Corners</div>
+      <br>
+      <div class="rounded2">Rounded Corners</div>
+      <br>
+      <div class="rounded3">Rounded Corners</div>
+      <br>
+      <div id="borderImage">
+        <img src="logo.jpg">
+      <br>
+      <div id="borderImage">This div uses an image border</div>
+      <br>
+      
+
+      <aside>
+
+
+
+        </aside>
+    </main>
+    <section>
+
+
+
+    </section>
+    <footer>
+
+    </footer>
+    </body>
+
+
+
+</html>
