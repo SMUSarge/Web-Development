@@ -1,0 +1,6 @@
+  document.addEventListener("keydown",function(event) {
+
+        alert("A key was pressed");
+        
+        console.log(event.key);
+    });
