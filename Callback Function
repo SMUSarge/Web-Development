@@ -1,0 +1,13 @@
+function addEventListener(typeOfEvent, callback) {
+    // Detect Event Code...
+var eventThatHappened = {
+    eventType: "keydown",
+    key: "p",
+    durationOfKeystroke: 2
+}
+    if (eventThatHappened.eventType === typeOfEvent) {
+        console.log("It matched");
+    }
+    callback(eventThatHappened);
+    
+}
